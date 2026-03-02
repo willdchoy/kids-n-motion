@@ -1,20 +1,22 @@
-## Dev
+## dev
 
-- Add Jekyll SSG
+x add Jekyll SSG
 
-## Design
+## design
 
-X Vertical rythm css
-? Theming
+x vertical rhythm css
 
-- Get correct font for logo
-- Finalize accent colors
-- Investigate shapes for text containers
+o add max font-size
 
-## Image
+- theming
+- get correct font for logo
+- finalize accent colors
+- investigate shapes for text containers
 
-- Create responsive images
+## image
 
-## Hosting
+- create responsive images
 
-- Discuss current hosting provider
+## hosting
+
+- discuss current hosting provider
