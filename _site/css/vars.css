@@ -1,0 +1,35 @@
+:root {
+  --color-primary-01: #073b87;
+  --color-primary-02: #f6bb21;
+  --color-primary-03: #6cae46;
+  --color-primary-04: #c9e2e7;
+
+  /* =========================
+     Layout
+  ========================== */
+  --max-width-container: 1920px;
+  --font-base-size: 1.4vw;
+  --font-base-family: 'Roboto', sans-serif;
+  --border-radius-m: 10px;
+
+  /* =========================
+     Colors
+  ========================== */
+  --color-primary-blue: var(--color-primary-01); /* rgb(0, 150, 255); */
+  --color-primary-light-blue: var(--color-primary-04);
+  --color-primary-yellow: var(--color-primary-02); /*rgb(255, 179, 0); */
+  --color-primary-green: var(--color-primary-03); /* rgb(97, 166, 14); */
+  --color-primary-white: rgb(255, 255, 255);
+
+  --color-accent-red: rgb(219, 0, 50);
+  --color-accent-pink: rgb(238, 191, 175);
+  --color-accent-orange: rgb(255, 120, 0);
+  --color-accent-purple: rgb(140, 82, 255);
+
+  --color-bg-light: rgb(218, 209, 202);
+  --color-neutral-warm: rgb(143, 129, 120);
+
+  --color-grey-light: rgb(245, 246, 248);
+  --color-grey-dark: rgb(64, 68, 75);
+  --color-off-black: rgb(24, 26, 31);
+}

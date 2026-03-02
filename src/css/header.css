@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: var(--color-primary-blue);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: var(--gap-m);
+
+    h1 {
+      width: 258px;
+      margin-top: 25px;
+      color: var(--color-primary-white);
+      font-family: 'Atma', system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2.9rem;
+
+      a {
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 2.9rem;
+        color: inherit;
+        background-color: inherit;
+      }
+
+      span {
+        position: relative;
+        top: -20px;
+        display: block;
+        float: right;
+        margin-right: 10px;
+        font-size: 1.5rem;
+        color: var(--color-primary-yellow);
+      }
+    }
+
+    img {
+      position: relative;
+      top: 3px;
+      height: 96.14px;
+      width: 113.25px;
+    }
+  }
+}

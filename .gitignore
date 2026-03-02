@@ -1,0 +1,5 @@
+.DS_Store
+source-media
+src/public/assets
+_site/public/assets
+.jekyll-cache
