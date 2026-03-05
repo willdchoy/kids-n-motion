@@ -1,0 +1,8 @@
+{
+  "short_name": "Kids-N-Motion",
+  "name": "Kids-N-Motion, Pediatric Therapy",
+  "start_url": "/",
+  "background_color": "#073b87",
+  "theme_color": "#073b87",
+  "display": "standalone"
+}

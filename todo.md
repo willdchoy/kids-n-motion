@@ -6,12 +6,12 @@ x add Jekyll SSG
 
 x vertical rhythm css
 
-o add max font-size
-
+- add max font-size
+- investigate shapes for text containers
 - theming
 - get correct font for logo
+- create svg from logo icon
 - finalize accent colors
-- investigate shapes for text containers
 
 ## image
 

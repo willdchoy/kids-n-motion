@@ -1,20 +1,25 @@
 :root {
+  /* =========================
+     Layout
+  ========================== */
+  --screen-s: 40rem; /* 640px */
+  --screen-m: 48rem; /* 768px */
+  --screen-l: 64rem; /* 1024px */
+  --screen-xl: 80rem; /* 1280px */
+  --screen-2xl: 96rem; /* 1536px */
+
+  --max-width-container: 1920px;
+  --gap-s: 1vw;
+  --gap-m: 2vw;
+
+  /* =========================
+     color
+  ========================== */
   --color-primary-01: #073b87;
   --color-primary-02: #f6bb21;
   --color-primary-03: #6cae46;
   --color-primary-04: #c9e2e7;
 
-  /* =========================
-     Layout
-  ========================== */
-  --max-width-container: 1920px;
-  --font-base-size: 1.4vw;
-  --font-base-family: "Roboto", sans-serif;
-  --border-radius-m: 10px;
-
-  /* =========================
-     Colors
-  ========================== */
   --color-primary-blue: var(--color-primary-01); /* rgb(0, 150, 255); */
   --color-primary-light-blue: var(--color-primary-04);
   --color-primary-yellow: var(--color-primary-02); /*rgb(255, 179, 0); */
@@ -32,4 +37,9 @@
   --color-grey-light: rgb(245, 246, 248);
   --color-grey-dark: rgb(64, 68, 75);
   --color-off-black: rgb(24, 26, 31);
+
+  /* =========================
+     styling
+  ========================== */
+  --border-radius-m: 10px;
 }

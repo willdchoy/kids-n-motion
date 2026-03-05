@@ -1,52 +1,46 @@
 header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   height: 100px;
   width: 100%;
   background-color: var(--color-primary-blue);
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
   .logo {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: var(--gap-m);
+    margin-inline-start: var(--gap-m);
+  }
 
-    h1 {
-      width: 258px;
-      margin-top: 25px;
-      color: var(--color-primary-white);
-      font-family: 'Atma', system-ui;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 2.9rem;
+  .logo h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
-      a {
-        font-family: inherit;
-        font-weight: inherit;
-        font-style: inherit;
-        font-size: 2.9rem;
-        color: inherit;
-        background-color: inherit;
-      }
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.9rem;
+    color: var(--color-primary-white);
+  }
 
-      span {
-        position: relative;
-        top: -20px;
-        display: block;
-        float: right;
-        margin-right: 10px;
-        font-size: 1.5rem;
-        color: var(--color-primary-yellow);
-      }
-    }
+  .logo a {
+    display: block;
+    font-size: 2.9rem;
+    color: inherit;
+    background-color: inherit;
+  }
 
-    img {
-      position: relative;
-      top: 3px;
-      height: 96.14px;
-      width: 113.25px;
-    }
+  .logo span {
+    font-size: 1.8rem;
+    color: var(--color-primary-yellow);
+  }
+
+  .logo img {
+    position: relative;
+    top: 3px;
+    height: 96.14px;
+    width: 113.25px;
   }
 }
