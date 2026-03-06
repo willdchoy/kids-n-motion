@@ -1,18 +1,30 @@
-.standard-layout {
-  .hero {
-    height: 400px;
-    width: 100%;
-    margin-block-end: 20px;
+.hero {
+  height: 400px;
+  width: 100%;
+  margin-block-end: 20px;
+  border-radius: var(--border-radius-m);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 100%;
+
+  nav {
+    width: 250px;
+  }
+  nav ul {
+    list-style-type: none;
   }
 
-  .two-column {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    width: 100%;
-    border: 1px solid red;
+  nav ul li {
+    cursor: pointer;
+    border-bottom: 1px solid var(--brand-border);
 
-    nav ul {
-      list-style-type: none;
+    &:hover {
+      background-color: var(--soft-color);
     }
   }
 }
