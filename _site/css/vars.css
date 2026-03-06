@@ -20,15 +20,23 @@
   --color-primary-03: #6cae46;
   --color-primary-04: #c9e2e7;
 
+  --brand: #073b87;
+  --strength: 0.12;
+  --strong-color: oklch(from var(--brand) calc(l - 0.12) c h);
+  --soft-color: oklch(from var(--brand) calc(l + 0.4) c h);
+  --accent-color: oklch(from var(--brand) l c calc(h + 20));
+  --brand-border: rgb(from var(--brand) r g b / 0.18);
+  --brand-shadow: rgb(from var(--brand) r g b / 0.3);
+
   --color-primary-blue: var(--color-primary-01); /* rgb(0, 150, 255); */
   --color-primary-light-blue: var(--color-primary-04);
   --color-primary-yellow: var(--color-primary-02); /*rgb(255, 179, 0); */
   --color-primary-green: var(--color-primary-03); /* rgb(97, 166, 14); */
+  --color-primary-orange: rgb(255, 120, 0);
   --color-primary-white: rgb(255, 255, 255);
 
   --color-accent-red: rgb(219, 0, 50);
   --color-accent-pink: rgb(238, 191, 175);
-  --color-accent-orange: rgb(255, 120, 0);
   --color-accent-purple: rgb(140, 82, 255);
 
   --color-bg-light: rgb(218, 209, 202);

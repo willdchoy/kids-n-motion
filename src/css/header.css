@@ -1,6 +1,6 @@
 header {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
   height: 100px;
   width: 100%;
   background-color: var(--color-primary-blue);

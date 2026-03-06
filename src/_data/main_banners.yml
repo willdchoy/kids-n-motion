@@ -1,0 +1,62 @@
+- heading: You Get My Child
+  bg_class: bg-yellow
+  h2_class: color-yellow
+  image_src: ./public/assets/images/homepage-1.jpg
+  image_alt: NOT SET
+  reverse:
+  content: >
+    <p>
+      <b>Some moments are simply harder than they should be.</b>
+    </p>
+    <p>
+      Transitions fall apart. Play doesn't last. Communication feels
+      frustrating. Small problems become big reactions. For some children the
+      skills are still developing, and for others the skills don't carry into
+      real situations.
+    </p>
+    <p>
+      At Kids N Motion, children work individually with their therapist while
+      learning alongside peers, so regulation, communication, and flexibility
+      grow in the moments they're actually needed.
+    </p>
+
+- heading: What Makes Us Different
+  bg_class: bg-purple
+  h2_class: color-purple
+  image_src: ./public/assets/images/homepage-2.jpg
+  image_alt: NOT SET
+  reverse: reverse
+  content: >
+    <p>
+      <b>Most therapy teaches skills. We help children use them.</b>
+    </p>
+    <p>
+      Our sessions are intentionally scheduled so children are working
+      individually with their therapist while other same-aged peers are also
+      engaged in therapy. This creates natural opportunities to form
+      connections, practice waiting, problem-solving, communication, and
+      emotional regulation in a supportive environment
+    </p>
+    <p>
+      Movement, interaction, and guidance happen together, so progress becomes
+      functional — not scripted.
+    </p>
+
+- heading: Services
+  bg_class: bg-orange
+  h2_class: color-orange
+  image_src: ./public/assets/images/homepage-3.jpg
+  image_alt: NOT SET
+  reverse:
+  content: >
+    <p>We provide coordinated pediatric therapy across:</p>
+    <ul>
+      <li><a href="">Occupational Therapy</a></li>
+      <li><a href="">Speech Therapy</a></li>
+      <li><a href="">Play Therapy</a></li>
+      <li><a href="">Applied Behavior Analysis (ABA)</a></li>
+    </ul>
+    <p>
+      Services can work together when helpful or stand
+      alone when a child only needs one area of support.
+    </p>

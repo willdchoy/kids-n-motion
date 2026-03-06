@@ -1,0 +1,18 @@
+.standard-layout {
+  .hero {
+    height: 400px;
+    width: 100%;
+    margin-block-end: 20px;
+  }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    border: 1px solid red;
+
+    nav ul {
+      list-style-type: none;
+    }
+  }
+}

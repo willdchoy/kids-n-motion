@@ -28,6 +28,11 @@ h6 {
 }
 h1 {
   --scale-factor-calculated: calc(pow(var(--scale-factor), 3));
+  font-size: clamp(
+    45px,
+    calc(var(--font-base-size) * var(--scale-factor-calculated)),
+    55px
+  );
 }
 h2 {
   --scale-factor-calculated: calc(pow(var(--scale-factor), 2));
@@ -46,7 +51,20 @@ h6 {
   --scale-factor-calculated: 1;
 }
 
-p {
+p,
+ul {
   font-size: clamp(16px, var(--font-base-size), 20px);
+}
+
+li {
+  margin: 10px auto;
+}
+
+p {
   max-width: 75ch;
+}
+
+a {
+  color: var(--brand);
+  text-decoration: none;
 }

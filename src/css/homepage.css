@@ -1,26 +1,17 @@
 div.video-wrapper {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  margin-block-end: 0;
-  border-radius: var(--border-radius-m);
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-
-  @media screen and (min-width: 1280px) {
-    margin-block-end: 100px;
-  }
+  margin-block: 0 25px;
+  /* max-width: 1280px; */
 
   video {
     width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: var(--border-radius-m);
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
   }
 }
 
 section.banner-wrapper {
-  margin-block-start: 50px;
+  margin-block-end: var(--gap-m);
   padding-block: var(--gap-m);
   padding-inline: var(--gap-m);
 
@@ -28,33 +19,42 @@ section.banner-wrapper {
     padding-block: 0;
     padding-inline: 0;
 
-    .banner {
+    div.banner {
       display: flex;
       align-items: center;
       justify-content: center;
     }
   }
 
-  .banner > .banner-content {
+  div.banner {
+    @media screen and (min-width: 64rem) {
+      display: flex;
+      justify-content: space-between;
+      padding-block: 20px;
+      max-height: 500px;
+    }
+  }
+
+  div.banner > div.banner-content {
     padding-block: var(--gap-m);
     padding-inline: var(--gap-m);
     background-color: var(--color-primary-white);
 
     @media screen and (min-width: 64rem) {
       margin-block: 0 0;
-      margin-inline: var(--gap-m);
     }
   }
 
-  .banner > .banner-img img {
+  div.banner > div.banner-img img {
     width: 100%;
 
     @media screen and (min-width: 64rem) {
+      position: relative;
       width: 675px;
     }
   }
 
-  .banner.reverse {
+  div.banner.reverse {
     flex-direction: row-reverse;
   }
 }

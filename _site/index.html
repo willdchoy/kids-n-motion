@@ -9,7 +9,7 @@
       name="description"
       content="Kids-N-Motion takes tremendous pride in our amazing team of occupational, speech &amp; language, and DIR Floortime play therapists:   Dvora Zibitt, Alex Miranda, Lauren Goldstein, Melissa Gould, Lauren Allison, Brooke Rosen, Samantha Dartt, and Jenny Rankin."
     />
-    <link href="./css/main.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
 
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,17 +23,17 @@
 
   <body>
     <div class="container">
-      <div class="bg-blue bg-extend">
-  <header>
+      <div>
+  <header class="bg-blue bg-extend">
     <div class="logo">
       <a href="/">
         <picture>
           <source
-            srcset="./public/assets/images/yellow-people.avif"
+            srcset="/public/assets/images/yellow-people.avif"
             media="(orientation: portrait)"
           />
           <img
-            src="./public/assets/images/yellow-people.avif"
+            src="/public/assets/images/yellow-people.avif"
             alt="Kids-N-Motion"
           />
         </picture>
@@ -44,39 +44,78 @@
         <span>Pediatric Therapy</span>
       </h1>
     </div>
+
+    <!-- -->
+    <nav class="main-nav">
+  <ul>
+    <li><a href="/our-unique-approach.html">Our Unique Approach</a></li>
+    <li><a href="/our-clinic.html">Our Clinic</a></li>
+    <li><a href="/">Our Team</a></li>
+    <li>
+      <a href="/">Therapies</a>
+      <ul>
+        <li>
+          <a href="/therapy/occupational-therapy.html">Occupational Therapy</a>
+        </li>
+        <li><a href="/therapy/speech-theraphy.html">Speech Therapy</a></li>
+        <li><a href="/therapy/play-therapy.html">Play Therapy</a></li>
+        <li><a href="/therapy/social-skills.html">Social Skills</a></li>
+        <li><a href="/therapy/aba.html">ABA</a></li>
+      </ul>
+    </li>
+    <li><a href="/faq.html">FAQs</a></li>
+    <li><a href="/contact-us.html">Contact Us</a></li>
+  </ul>
+</nav>
+
   </header>
 </div>
 
-      <main>
+      <main><div class="video-wrapper bg-blue bg-extend">
+  <video controls muted loop>
+    <source
+      src="/public/assets/video/kids-n-motion-full.mp4#t=1"
+      type="video/mp4"
+    />
+    <track
+      src="/public/assets/video/captions-en.vtt"
+      kind="captions"
+      srclang="en"
+      label="english-captions"
+    />
+  </video>
+</div>
 
-<section class="banner-wrapper bg-orange bg-extend">
-  <div class="banner">
+<!-- -->
+
+
+<section class="banner-wrapper bg-extend bg-yellow">
+  <div class="banner ">
     <picture class="banner-img">
       <source srcset="./public/assets/images/homepage-1.jpg" />
       <img src="./public/assets/images/homepage-1.jpg" alt="" />
     </picture>
 
     <div class="banner-content">
-      <h2 class="color-orange">You Get My Child</h2>
+      <h2 class="color-yellow">You Get My Child</h2>
       <p>
-        <b>Some moments are simply harder than they should be.</b>
-      </p>
-      <p>
-        Transitions fall apart. Play doesn't last. Communication feels
-        frustrating. Small problems become big reactions. For some children the
-        skills are still developing, and for others the skills don't carry into
-        real situations.
-      </p>
-      <p>
-        At Kids N Motion, children work individually with their therapist while
-        learning alongside peers, so regulation, communication, and flexibility
-        grow in the moments they're actually needed.
-      </p>
+  <b>Some moments are simply harder than they should be.</b>
+</p> <p>
+  Transitions fall apart. Play doesn't last. Communication feels
+  frustrating. Small problems become big reactions. For some children the
+  skills are still developing, and for others the skills don't carry into
+  real situations.
+</p> <p>
+  At Kids N Motion, children work individually with their therapist while
+  learning alongside peers, so regulation, communication, and flexibility
+  grow in the moments they're actually needed.
+</p>
+
     </div>
   </div>
 </section>
 
-<section class="banner-wrapper bg-purple bg-extend">
+<section class="banner-wrapper bg-extend bg-purple">
   <div class="banner reverse">
     <picture class="banner-img">
       <source srcset="./public/assets/images/homepage-2.jpg" />
@@ -86,25 +125,48 @@
     <div class="banner-content">
       <h2 class="color-purple">What Makes Us Different</h2>
       <p>
-        <b>Most therapy teaches skills. We help children use them.</b>
-      </p>
-      <p>
-        Our sessions are intentionally scheduled so children are working
-        individually with their therapist while other same-aged peers are also
-        engaged in therapy. This creates natural opportunities to form
-        connections, practice waiting, problem-solving, communication, and
-        emotional regulation in a supportive environment
-      </p>
-      <p>
-        Movement, interaction, and guidance happen together, so progress becomes
-        functional — not scripted.
-      </p>
+  <b>Most therapy teaches skills. We help children use them.</b>
+</p> <p>
+  Our sessions are intentionally scheduled so children are working
+  individually with their therapist while other same-aged peers are also
+  engaged in therapy. This creates natural opportunities to form
+  connections, practice waiting, problem-solving, communication, and
+  emotional regulation in a supportive environment
+</p> <p>
+  Movement, interaction, and guidance happen together, so progress becomes
+  functional — not scripted.
+</p>
+
     </div>
   </div>
 </section>
+
+<section class="banner-wrapper bg-extend bg-orange">
+  <div class="banner ">
+    <picture class="banner-img">
+      <source srcset="./public/assets/images/homepage-3.jpg" />
+      <img src="./public/assets/images/homepage-3.jpg" alt="" />
+    </picture>
+
+    <div class="banner-content">
+      <h2 class="color-orange">Services</h2>
+      <p>We provide coordinated pediatric therapy across:</p> <ul>
+  <li><a href="">Occupational Therapy</a></li>
+  <li><a href="">Speech Therapy</a></li>
+  <li><a href="">Play Therapy</a></li>
+  <li><a href="">Applied Behavior Analysis (ABA)</a></li>
+</ul> <p>
+  Services can work together when helpful or stand
+  alone when a child only needs one area of support.
+</p>
+
+    </div>
+  </div>
+</section>
+
 </main>
     </div>
   </body>
 
-  <script src="./js/scripts.js"></script>
+  <script src="/js/scripts.js"></script>
 </html>

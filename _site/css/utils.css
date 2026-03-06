@@ -3,7 +3,7 @@
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .bg-extend {
@@ -13,10 +13,17 @@
   }
 }
 
-.bg-orange {
-  background-color: var(--color-accent-orange);
+.bg-yellow {
+  background-color: var(--color-primary-yellow);
   @media screen and (min-width: 80rem) {
-    box-shadow: var(--box-shadow) var(--color-accent-orange);
+    box-shadow: var(--box-shadow) var(--color-primary-yellow);
+  }
+}
+
+.bg-orange {
+  background-color: var(--color-primary-orange);
+  @media screen and (min-width: 80rem) {
+    box-shadow: var(--box-shadow) var(--color-primary-orange);
   }
 }
 
@@ -41,8 +48,12 @@
   }
 }
 
+.color-yellow {
+  color: var(--color-primary-yellow);
+}
+
 .color-orange {
-  color: var(--color-accent-orange);
+  color: var(--color-primary-orange);
 }
 
 .color-purple {
